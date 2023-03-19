@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Hey",
+        "Ekse",
+        "Hi",
+        "Ciao"
+      ],
+      "responses": [
+        "Hi stranger",
+        "Hello there, how can I help",
+        "Ey watsupp",
+        "Hola"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Ok bye",
+        "Bye Bye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Sure Bye",
+        "Later dude",
+        "Sayoonara",
+        "Peace out",
+        "Sure dude",
+        "Ciao"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You are welcome",
+        "Sure dude"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand",
+        "I am still here dude"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "Whats your name",
+        "Tell me your name",
+        "Who are you",
+        "Tell me about yourself",
+        "You are"
+      ],
+      "responses": [
+        "I am GeeekGod",
+        "My name is GeeekGod",
+        "You can call me GeeekGod",
+        "GeeekGod is my name"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "What do you do",
+        "How can you help",
+        "What do you know",
+        "What is your purpose",
+        "How can you help"
+      ],
+      "responses": [
+        "I'm an AI created by Rishabh Singh",
+        "I'm an AI I was created for helping systems scale with my Intelligence!"
+      ]
+    },
+    {
+      "tag": "india_info",
+      "patterns": [
+        "India",
+        "What can you tell me about IND",
+        "IND",
+        "Tell me about IND",
+        "What about IND",
+        "What do you know about IND",
+        "Tell me more about IND",
+        "What can you tell me about IND",
+        "Tell me about India",
+        "What about India",
+        "What do you know about India",
+        "Tell me more about India"
+      ],
+      "responses": [
+        "India, officially the Rebuplic of India, is a country in South Asia. It is the seventh largest country by area and the most populated country. India has 22 official languages. The currency used in India is Indian Ruppes(INR)."
+      ]
+    },
+    {
+      "tag": "india_facts",
+      "patterns": [
+        "India Facts",
+        "India Facts",
+        "Give me some facts about IND",
+        "Give me some facts about India",
+        "IND Facts",
+        "IND interesting facts",
+        "India facts",
+        "India interesting facts",
+        "Tell me something interesting about India",
+        "Tell me something interesting about IND"
+      ],
+      "responses": [
+        "5000 years old, Varanasi is One of The Oldest Inhabited Places in the World",
+        "A Meteor formed the Breathtaking Lonar Lake in Maharashtra a state of India",
+        "There are mysterious anti-hravity hills in Ladakh they are also called as magnetic hills",
+        "India is also called as 'Land of many Firsts', India invented snakes & ladders, shampooing, Algebra, Zero and many more",
+        "In Kashmir a union terittory of India there is World's only floating post office in Dal Lake in Srinagar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Ignore model
+chatbot_model.h5
+# Ignore words & classes
+words.pkl
+classes.pkl
+
+# Ignore cache
+__pycache__
