@@ -10,8 +10,7 @@
 
     <title>GeeekGod AI</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
   </head>
   <body>
@@ -40,35 +39,40 @@
 
     <script src="/static/jquery.min.js" ></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <script>
 
+
+      function  responseFromGeeekGodAI(){
+        $.ajax({
+          type: "POST",
+          url: "/chatbot",
+          data: {
+              question: $("#question").val()
+          },
+          success: function(result) {
+            $("#response").append("<br>Me: "+$("#question").val()+ "<br> GeeekGod AI: "+result.response);
+            $("#question").val("")
+          },
+          error: function(result) {
+              alert('error');
+          }
+      });
+      }
 
       jQuery(document).ready(function() {
 
         $("#submit-button").click(function(e) {
           e.preventDefault();
+          responseFromGeeekGodAI()
+        });
 
-
-          $.ajax({
-              type: "POST",
-              url: "/chatbot",
-              data: {
-                  question: $("#question").val()
-              },
-              success: function(result) {
-                $("#response").append("<br>Me: "+$("#question").val()+ "<br> GeeekGod AI: "+result.response);
-                $("#question").val("")
-              },
-              error: function(result) {
-                  alert('error');
-              }
-          });
-
-
-
+        $('#question').keypress(function (e) {
+          if (e.which == 13) {
+            responseFromGeeekGodAI()
+            return false;
+          }
         });
 
       });
