@@ -1,0 +1,11 @@
+[Unit]
+Description=Gunicorn instance to serve GeeekGodAI a Flask Application
+After=network.target
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=<path-to-project>/GeeekGod-AI
+Environment="PATH=<path-to-project>/GeeekGod-AI/geeekgodai/bin"
+ExecStart=<path-to-project>/GeeekGod-AI/geeekgodai/bin/gunicorn --bind 127.0.0.1:8888 wsgi:app
+[Install]
+WantedBy=multi-user.target
