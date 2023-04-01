@@ -70,6 +70,96 @@
       ]
     },
     {
+      "tag": "info_privacy",
+      "patterns": [
+        "What's done with all my information? ",
+        "Is my information safe?"
+      ],
+      "responses": [
+        "We only ask for need to know infomation, which will be kept safe with us",
+        "Only the information required for blood donation is made accessible and is kept safe with us"
+      ]
+    },
+    {
+      "tag": "nearby_request",
+      "patterns": [
+        "Is there a way for me to get my nearby requests?",
+        "Where can I see blood donation requests near to me?",
+        "Which are the blood donation requests nearest to me?",
+        "Can I see nearby blood donation requests?"
+      ],
+      "responses": [
+        "From the left upper corner menu bar, you can naviagte to the page 'Nearby Request' and get to see all the donation requests available around you ",
+        "In our app, you also get to see all the blood donation requests made near you by clicking on the dashboard menu on the left upper corner and moving to the nearby requests page"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Who can access my location? ",
+        "Can my current location be seen all the time?"
+      ],
+      "responses": [
+        "The blood donators will be able to see the location you put up while posting the request, so that they can check if your near to them",
+        "Please be assured, we will not track your location and it will only be visible to blood donors"
+      ]
+    },
+    {
+      "tag": "our_mission",
+      "patterns": [
+        "What is the purpose of your app? ",
+        "What is the use of this app?",
+        "Why have you started this app?",
+        "Why should I use this app?"
+      ],
+      "responses": [
+        "The main motive behind building this app is to become a bridge between those who desperately need blood and those who are willing to give blood, and help people as much as we can in our own way",
+        "Blood is a miracle that can not yet be artifically created but is needed by all, so we aim to serve as a medium and connect people in need",
+        "Our app provides various features which makes blood donation easier and efficient and aims to serve people all over as much as possible"
+      ]
+    },
+    {
+      "tag": "post_request",
+      "patterns": [
+        "How do I post a blood request?",
+        "How should I request for blood?",
+        "How will I get blood here?",
+        "Where do I navigate to post my blood request?"
+      ],
+      "responses": [
+        "You can request for blood my moving to the left upper corner of the screen, click on it and you get a dashboard view, there an option 'post request' will be available and you can just go ahead and fill your details and voila,request posted",
+        "Please find the menu option in left upper corner and you'll get navigation access of our whole app easily"
+      ]
+    },
+    {
+      "tag": "save_request",
+      "patterns": [
+        "Is there a way to see a particular blood request again?",
+        "Is there a way to donate blood later on a particular request without loosing it from the home page?",
+        "Can I bookmark some requests?",
+        "How do I save some requests?",
+        "Where do I find my saved requests?",
+        "Is there a way to save a particular blood donation request?"
+      ],
+      "responses": [
+         "On the Home page, you get to see a list of requests for donation. On each request, in right upper corner there is an arrow-like bookmark, after clicking on it your request will be saved for later use",
+         "On the left upper corner of the screen, you will get to see a menu bar and by accessing it , 'Saved Requests' option will be visible, where all the requests you have previously saved will be stored",
+         "You can swipe the screen from the left side and the navigation dashboard becomes accessible which will guide you to all the pages in our app"
+      ]
+    },
+    {
+      "tag": "donate_blood",
+      "patterns": [
+        "How do I donate blood here?",
+        "What do I need to do for donating blood?"
+      ],
+      "responses": [
+        "On your home page, you'll get a list of nearby blood requests starting from the top being the requests closest to you",
+        "If you are on any other page than the Home page, then you can see the blood donation requests by finding the menu button in the left upper corner and navigating to the Home page, where you'll see all the requests starting from the near to far ",
+        "For donating blood, you just need to click on the 'DONATE' button on the request visible on the home page and voila, the map will show you the place where blood is needed "
+      ]
+    },
+    {
       "tag": "name",
       "patterns": [
         "What is your name",
@@ -99,48 +189,7 @@
         "I'm an AI created by Rishabh Singh",
         "I'm an AI I was created for helping systems scale with my Intelligence!"
       ]
-    },
-    {
-      "tag": "india_info",
-      "patterns": [
-        "India",
-        "What can you tell me about IND",
-        "IND",
-        "Tell me about IND",
-        "What about IND",
-        "What do you know about IND",
-        "Tell me more about IND",
-        "What can you tell me about IND",
-        "Tell me about India",
-        "What about India",
-        "What do you know about India",
-        "Tell me more about India"
-      ],
-      "responses": [
-        "India, officially the Rebuplic of India, is a country in South Asia. It is the seventh largest country by area and the most populated country. India has 22 official languages. The currency used in India is Indian Ruppes(INR)."
-      ]
-    },
-    {
-      "tag": "india_facts",
-      "patterns": [
-        "India Facts",
-        "India Facts",
-        "Give me some facts about IND",
-        "Give me some facts about India",
-        "IND Facts",
-        "IND interesting facts",
-        "India facts",
-        "India interesting facts",
-        "Tell me something interesting about India",
-        "Tell me something interesting about IND"
-      ],
-      "responses": [
-        "5000 years old, Varanasi is One of The Oldest Inhabited Places in the World",
-        "A Meteor formed the Breathtaking Lonar Lake in Maharashtra a state of India",
-        "There are mysterious anti-hravity hills in Ladakh they are also called as magnetic hills",
-        "India is also called as 'Land of many Firsts', India invented snakes & ladders, shampooing, Algebra, Zero and many more",
-        "In Kashmir a union terittory of India there is World's only floating post office in Dal Lake in Srinagar"
-      ]
     }
+    
   ]
 }
