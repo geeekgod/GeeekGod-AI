@@ -17,9 +17,11 @@
       ],
       "responses": [
         "Hi stranger",
-        "Hello there, how can I help",
+        "Hello there, how can I help?",
         "Ey watsupp",
-        "Hola"
+        "Hola",
+        "Don't tell me you're back again!!",
+        "Namaskar mandali"
       ]
     },
     {
@@ -39,7 +41,8 @@
         "Sayoonara",
         "Peace out",
         "Sure dude",
-        "Ciao"
+        "Ciao",
+        "Come again soon....Don't"
       ]
     },
     {
@@ -66,7 +69,8 @@
         "Sorry, can't understand you",
         "Please give me more info",
         "Not sure I understand",
-        "I am still here dude"
+        "I am still here dude",
+        "Did I get an answer yet? Excuse me?"
       ]
     },
     {
@@ -84,13 +88,23 @@
       "tag": "nearby_request",
       "patterns": [
         "Is there a way for me to get my nearby requests?",
-        "Where can I see blood donation requests near to me?",
-        "Which are the blood donation requests nearest to me?",
-        "Can I see nearby blood donation requests?"
+        "Where can I see blood donation requests near to me?"
       ],
       "responses": [
         "From the left upper corner menu bar, you can naviagte to the page 'Nearby Request' and get to see all the donation requests available around you ",
         "In our app, you also get to see all the blood donation requests made near you by clicking on the dashboard menu on the left upper corner and moving to the nearby requests page"
+      ]
+    },
+    {
+      "tag": "nearby_request_list",
+      "patterns": [
+        "Which are the blood donation requests nearest to me?",
+        "Can I see nearby blood donation requests?",
+        "Can I get a list of nearby blood donation requests?"
+      ],
+      "responses": [
+        "Yes, here is a list of nearby blood donation requests... ",
+        "Oh!, looks like there are no nearby requests around you, good news of the day!! No one needs blood...YET"
       ]
     },
     {
@@ -151,7 +165,10 @@
       "tag": "donate_blood",
       "patterns": [
         "How do I donate blood here?",
-        "What do I need to do for donating blood?"
+        "What do I need to do for donating blood?",
+        "I want to donate blood",
+        "Can I donate blood for bloodtype O-",
+        "Can I donate blood for bloodtype...."
       ],
       "responses": [
         "On your home page, you'll get a list of nearby blood requests starting from the top being the requests closest to you",
@@ -173,7 +190,34 @@
         "I am GeeekGod",
         "My name is GeeekGod",
         "You can call me GeeekGod",
-        "GeeekGod is my name"
+        "GeeekGod is my name",
+        "Thou shall call me GeekGod",
+        "Stay in your limits, mortal! Ahahaha Just kidding, I'm God, you can call me GeeekGod"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Do I need to consider anything while donating blood?",
+        "Are there any precautions I need to follow before donating blood?",
+        "Can I donate blood if I have some previous medical history?"
+      ],
+      "responses": [
+        "Before donating blood, you need to make sure you- 1. Are between 18 to 60 years of age.  2. Weight above 45 kg and are in good health  3. Should not have any STDs. 4. Pregnant women are not eligible to donate blood."
+      ]
+    },
+    {
+      "tag": "blood_faqs",
+      "patterns": [
+        "Is donating blood safe?",
+        "Is donating blood a painful thing?",
+        "Won't blood donation make me weak?",
+        "How much blood is collected ?"
+      ],
+      "responses": [
+        "Blood donation is a safe and harmless proccess and the only discomfort might occur when the needle is pricked at first. ",
+        "Blood donation is a safe process but after donating blood there is a chance of fatigue, dizziness, nausea etc.",
+        "Blood donation is a relatively harmless proccess and about 350ml of blood is collected is you weight between 45kg to 55kg or 450ml of blood if you weigh more than 55kg."
       ]
     },
     {
@@ -186,8 +230,9 @@
         "How can you help"
       ],
       "responses": [
-        "I'm an AI created by Rishabh Singh",
-        "I'm an AI I was created for helping systems scale with my Intelligence!"
+        "I'm an AI built to help you find your way around here",
+        "I'm an AI I was created for helping systems scale with my Intelligence!",
+        "I'm an AI that will help you find your way if your feeling a little lost, you can rely on me a little."
       ]
     }
     
