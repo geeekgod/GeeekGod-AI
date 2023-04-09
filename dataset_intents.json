@@ -16,12 +16,9 @@
         "Ciao"
       ],
       "responses": [
-        "Hi stranger",
+        "Hi",
         "Hello there, how can I help?",
-        "Ey watsupp",
-        "Hola",
-        "Don't tell me you're back again!!",
-        "Namaskar mandali"
+        "Hello, How can I assist you today?"
       ]
     },
     {
@@ -36,13 +33,7 @@
       "responses": [
         "See you!",
         "Have a nice day",
-        "Sure Bye",
-        "Later dude",
-        "Sayoonara",
-        "Peace out",
-        "Sure dude",
-        "Ciao",
-        "Come again soon....Don't"
+        "Sure Bye"
       ]
     },
     {
@@ -51,7 +42,6 @@
         "Thanks",
         "Thank you",
         "That's helpful",
-        "Awesome, thanks",
         "Thanks for helping me"
       ],
       "responses": [
@@ -59,7 +49,7 @@
         "Any time!",
         "My pleasure",
         "You are welcome",
-        "Sure dude"
+        "You're welcome! If you have any other questions, feel free to ask."
       ]
     },
     {
@@ -68,9 +58,7 @@
       "responses": [
         "Sorry, can't understand you",
         "Please give me more info",
-        "Not sure I understand",
-        "I am still here dude",
-        "Did I get an answer yet? Excuse me?"
+        "Not sure I understand"
       ]
     },
     {
@@ -104,7 +92,22 @@
       ],
       "responses": [
         "Yes, here is a list of nearby blood donation requests... ",
-        "Oh!, looks like there are no nearby requests around you, good news of the day!! No one needs blood...YET"
+        "Oh!, looks like there are no nearby requests around you."
+      ]
+    },
+    {
+      "tag": "track_past_history",
+      "patterns": [
+        "How can I track my blood donation history?",
+        "Is there a way for me to see my blood donation history?",
+        "my past blood donation appointments?",
+        "my past activities?",
+        "completed blood donation requests"
+
+      ],
+      "responses": [
+        "I'm sorry, currently we are still a work in progress and have yet to add more features like these ",
+        "I'm sorry, Currently we can't show you, your past donation appointments."
       ]
     },
     {
@@ -119,7 +122,7 @@
       ]
     },
     {
-      "tag": "our_mission",
+      "tag": "LearnMore",
       "patterns": [
         "What is the purpose of your app? ",
         "What is the use of this app?",
@@ -200,11 +203,26 @@
       "patterns": [
         "Do I need to consider anything while donating blood?",
         "Are there any precautions I need to follow before donating blood?",
-        "Can I donate blood if I have some previous medical history?"
+        "Can I donate blood if I have some previous medical history?",
+        "Can I donate blood if I have a tattoo?"
       ],
       "responses": [
-        "Before donating blood, you need to make sure you- 1. Are between 18 to 60 years of age.  2. Weight above 45 kg and are in good health  3. Should not have any STDs. 4. Pregnant women are not eligible to donate blood."
+        "Before donating blood, you need to make sure you- 1. Are between 18 to 60 years of age.  2. Weight above 45 kg and are in good health  3. Should not have any STDs. 4. Pregnant women are not eligible to donate blood. 5. If you have a tattoo, you must wait at least 12 months after getting it before you can donate blood."
       ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["How do I make an appointment to donate blood?", "Can I schedule a donation appointment online?", "What should I bring to my donation appointment?"],
+      "responses": ["You can make an appointment to donate blood by calling the number given on the blood request or by dropping them an email. We recommend that you bring your driver's license or another form of identification, and a list of any medications you are taking."]
+    },
+    {
+      "tag": "CancelAppointment",
+      "patterns": [
+        "cancel my blood donation appointment",
+        "reschedule my blood donation",
+        "change my donation appointment"
+      ],
+      "responses": ["You can cancel or reschedule your appointment by directly calling the number given on the blood request of drop an email to the respective party"]
     },
     {
       "tag": "blood_faqs",
@@ -212,12 +230,27 @@
         "Is donating blood safe?",
         "Is donating blood a painful thing?",
         "Won't blood donation make me weak?",
-        "How much blood is collected ?"
+        "How much blood is collected ?",
+        "Is it safe to donate blood during the COVID-19 pandemic?",
+        "What are the risks and side effects of donating blood?"
       ],
       "responses": [
         "Blood donation is a safe and harmless proccess and the only discomfort might occur when the needle is pricked at first. ",
         "Blood donation is a safe process but after donating blood there is a chance of fatigue, dizziness, nausea etc.",
         "Blood donation is a relatively harmless proccess and about 350ml of blood is collected is you weight between 45kg to 55kg or 450ml of blood if you weigh more than 55kg."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "You should try including this in your app",
+        "Thank you",
+        "Thanks",
+        "You should have...."
+      ],
+      "responses": [
+       "If you have any suggestions or improvements for our app, we would welcome your suggestions.",
+       "We are currently still working on several features, any feedback is welcome and will be taken into consideration."
       ]
     },
     {
