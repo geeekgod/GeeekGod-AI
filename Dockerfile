@@ -9,8 +9,6 @@ COPY . /app/
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-RUN python chatbot.py
-
 EXPOSE 8888
 
-CMD ["python", "app.py"]
+CMD ./run.sh
