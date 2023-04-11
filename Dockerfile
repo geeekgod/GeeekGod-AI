@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8888
 
-CMD ./run.sh
+CMD ["/bin/bash", "-c", "python chatbot.py && python wsgi.py"]
