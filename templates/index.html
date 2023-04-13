@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>GeeekGod AI</title>
+    <title>Bloodline AI</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to GeeekGod AI</h1>
+      <h1>Welcome to Bloodline AI</h1>
       <br>
       <hr>
       <br>
@@ -52,7 +52,7 @@
               question: $("#question").val()
           },
           success: function(result) {
-            $("#response").append("<br>Me: "+$("#question").val()+ "<br> GeeekGod AI: "+result.response);
+            $("#response").append("<br>Me: "+$("#question").val()+ "<br> Bloodline AI: "+result.response);
             $("#question").val("")
           },
           error: function(result) {
