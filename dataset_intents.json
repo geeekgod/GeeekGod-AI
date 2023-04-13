@@ -180,25 +180,6 @@
       ]
     },
     {
-      "tag": "name",
-      "patterns": [
-        "What is your name",
-        "Whats your name",
-        "Tell me your name",
-        "Who are you",
-        "Tell me about yourself",
-        "You are"
-      ],
-      "responses": [
-        "I am GeeekGod",
-        "My name is GeeekGod",
-        "You can call me GeeekGod",
-        "GeeekGod is my name",
-        "Thou shall call me GeekGod",
-        "Stay in your limits, mortal! Ahahaha Just kidding, I'm God, you can call me GeeekGod"
-      ]
-    },
-    {
       "tag": "eligibility",
       "patterns": [
         "Do I need to consider anything while donating blood?",
@@ -260,12 +241,19 @@
         "How can you help",
         "What do you know",
         "What is your purpose",
-        "How can you help"
+        "How can you help",
+        "What is your name",
+        "Whats your name",
+        "Tell me your name",
+        "Who are you",
+        "Tell me about yourself",
+        "You are"
       ],
       "responses": [
         "I'm an AI built to help you find your way around here",
-        "I'm an AI I was created for helping systems scale with my Intelligence!",
-        "I'm an AI that will help you find your way if your feeling a little lost, you can rely on me a little."
+        "I'm an AI, I was created for helping systems scale with my Intelligence!",
+        "I'm an AI that will help you find your way if your feeling a little lost",
+        "I'm an AI built to help you navigate your way in the app."
       ]
     }
     
