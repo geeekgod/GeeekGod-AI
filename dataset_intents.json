@@ -1,5 +1,13 @@
 {
   "intents": [
+      {
+        "tag": "no_answer",
+        "patterns": [],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info"
+        ]
+      },
     {
       "tag": "greeting",
       "patterns": [
@@ -7,13 +15,10 @@
         "How are you",
         "Is anyone there?",
         "Hey",
-        "Hola",
         "Hello",
         "Good day",
         "Hey",
-        "Ekse",
-        "Hi",
-        "Ciao"
+        "Hi"
       ],
       "responses": [
         "Hi",
@@ -42,7 +47,10 @@
         "Thanks",
         "Thank you",
         "That's helpful",
-        "Thanks for helping me"
+        "Thanks for helping me",
+        "Great",
+        "Great Thanks",
+        "Thank you so much"
       ],
       "responses": [
         "Happy to help!",
@@ -53,22 +61,13 @@
       ]
     },
     {
-      "tag": "noanswer",
-      "patterns": [],
-      "responses": [
-        "Sorry, can't understand you",
-        "Please give me more info",
-        "Not sure I understand"
-      ]
-    },
-    {
       "tag": "info_privacy",
       "patterns": [
         "What's done with all my information? ",
         "Is my information safe?"
       ],
       "responses": [
-        "We only ask for need to know infomation, which will be kept safe with us",
+        "We only ask for need to know information, which will be kept safe with us",
         "Only the information required for blood donation is made accessible and is kept safe with us"
       ]
     },
@@ -79,7 +78,7 @@
         "Where can I see blood donation requests near to me?"
       ],
       "responses": [
-        "From the left upper corner menu bar, you can naviagte to the page 'Nearby Request' and get to see all the donation requests available around you ",
+        "From the left upper corner menu bar, you can navigate to the page 'Nearby Request' and get to see all the donation requests available around you ",
         "In our app, you also get to see all the blood donation requests made near you by clicking on the dashboard menu on the left upper corner and moving to the nearby requests page"
       ]
     },
@@ -91,8 +90,7 @@
         "Can I get a list of nearby blood donation requests?"
       ],
       "responses": [
-        "Yes, here is a list of nearby blood donation requests... ",
-        "Oh!, looks like there are no nearby requests around you."
+        "nearby_req\nYes, here is a list of nearby blood donation requests \nOh!, looks like there are no nearby requests around you."
       ]
     },
     {
@@ -122,7 +120,7 @@
       ]
     },
     {
-      "tag": "LearnMore",
+      "tag": "learn_more",
       "patterns": [
         "What is the purpose of your app? ",
         "What is the use of this app?",
@@ -131,7 +129,7 @@
       ],
       "responses": [
         "The main motive behind building this app is to become a bridge between those who desperately need blood and those who are willing to give blood, and help people as much as we can in our own way",
-        "Blood is a miracle that can not yet be artifically created but is needed by all, so we aim to serve as a medium and connect people in need",
+        "Blood is a miracle that can not yet be artificially created but is needed by all, so we aim to serve as a medium and connect people in need",
         "Our app provides various features which makes blood donation easier and efficient and aims to serve people all over as much as possible"
       ]
     },
@@ -170,8 +168,7 @@
         "How do I donate blood here?",
         "What do I need to do for donating blood?",
         "I want to donate blood",
-        "Can I donate blood for bloodtype O-",
-        "Can I donate blood for bloodtype...."
+        "Can I donate blood for bloodtype"
       ],
       "responses": [
         "On your home page, you'll get a list of nearby blood requests starting from the top being the requests closest to you",
@@ -216,9 +213,9 @@
         "What are the risks and side effects of donating blood?"
       ],
       "responses": [
-        "Blood donation is a safe and harmless proccess and the only discomfort might occur when the needle is pricked at first. ",
+        "Blood donation is a safe and harmless process and the only discomfort might occur when the needle is pricked at first. ",
         "Blood donation is a safe process but after donating blood there is a chance of fatigue, dizziness, nausea etc.",
-        "Blood donation is a relatively harmless proccess and about 350ml of blood is collected is you weight between 45kg to 55kg or 450ml of blood if you weigh more than 55kg."
+        "Blood donation is a relatively harmless process and about 350ml of blood is collected is you weight between 45kg to 55kg or 450ml of blood if you weigh more than 55kg."
       ]
     },
     {
@@ -250,12 +247,11 @@
         "You are"
       ],
       "responses": [
-        "I'm an AI built to help you find your way around here",
-        "I'm an AI, I was created for helping systems scale with my Intelligence!",
-        "I'm an AI that will help you find your way if your feeling a little lost",
-        "I'm an AI built to help you navigate your way in the app."
+        "I'm BloodLine AI built to help you find your way in the app.",
+        "I'm BloodLine AI that will help you find your way if your feeling a little lost.",
+        "I'm BloodLine AI built to help you navigate your way in the app."
       ]
     }
-    
+
   ]
 }
