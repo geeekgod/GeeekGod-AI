@@ -1,13 +1,5 @@
 {
   "intents": [
-      {
-        "tag": "no_answer",
-        "patterns": [],
-        "responses": [
-          "Sorry, can't understand you",
-          "Please give me more info"
-        ]
-      },
     {
       "tag": "greeting",
       "patterns": [
@@ -251,7 +243,14 @@
         "I'm BloodLine AI that will help you find your way if your feeling a little lost.",
         "I'm BloodLine AI built to help you navigate your way in the app."
       ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info"
+      ]
     }
-
   ]
 }
